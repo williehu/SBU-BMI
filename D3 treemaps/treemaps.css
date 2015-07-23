@@ -1,0 +1,40 @@
+.chart {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+rect {
+  fill: clear;
+  rx: 5;
+  ry: 5;
+  cursor: pointer;
+}
+
+.chart-label {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.selection-buttons-container {
+  width: 800px;
+  margin-bottom: 60px;
+}
+.selection-button {
+  float: left;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: gray;
+}
+.selected-button {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+}
+
+#notes-container {
+    max-width: 900px;
+    margin: 40px auto;
+}
+/* pointer-events: none; */
